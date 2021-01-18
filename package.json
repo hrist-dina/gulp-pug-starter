@@ -1,10 +1,10 @@
 {
     "name": "gulp-pug-starter",
     "description": "Frontend development with pleasure",
-    "author": "Andrey Gorokhov",
+    "author": "Dina Hrist",
     "repository": {
         "type": "git",
-        "url": "https://github.com/andreyalexeich/gulp-pug-starter.git"
+        "url": "https://github.com/hrist-dina/gulp-pug-starter.git"
     },
     "license": "MIT",
     "scripts": {
@@ -37,6 +37,8 @@
         "browser-sync": "^2.23.6",
         "del": "^5.1.0",
         "eslint": "~7.7.0",
+        "eslint-config-prettier": "^7.1.0",
+        "eslint-plugin-prettier": "^3.3.1",
         "gulp": "^4.0.0",
         "gulp-autoprefixer": "~7.0.1",
         "gulp-clean-css": "~4.3.0",
@@ -48,6 +50,7 @@
         "gulp-newer": "^1.4.0",
         "gulp-plumber": "^1.2.0",
         "gulp-pug": "^4.0.1",
+        "gulp-pugbem": "^2.2.4",
         "gulp-rename": "^2.0.0",
         "gulp-replace": "^1.0.0",
         "gulp-sass": "~4.1.0",
@@ -63,6 +66,7 @@
         "imagemin-webp": "^6.0.0",
         "imagemin-zopfli": "^7.0.0",
         "lint-staged": "^10.0.3",
+        "prettier": "^2.2.1",
         "require-dir": "^1.2.0",
         "stylelint": "^13.6.1",
         "stylelint-order": "^4.1.0",
